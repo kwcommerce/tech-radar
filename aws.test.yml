@@ -1,12 +1,11 @@
 version: '0.1'
 
-name: task-amazon-b2b
+name: kw-tech-radar
 cluster: core
 stage: test
 team: core
 services:
   - type: generic
-    image: task-amazon-b2b:${VERSION}
-    env_file: .env.test
+    image: kw-tech-radar:${VERSION}
     dns_name: task-amazon-b2b
     container_port: 8000
