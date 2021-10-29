@@ -1,0 +1,15 @@
+version: '3.7'
+services:
+  nginx:
+    image: ${REGISTRY}/${NAME}_nginx:${VERSION}
+    networks:
+      - default
+      - kw_default
+    deploy:
+      labels:
+        traefik.docker.network: kw_default
+        traefik.frontend.rule: Host:techradar.kwnet
+        traefik.port: 8000
+networks:
+  kw_default:
+    external: true
