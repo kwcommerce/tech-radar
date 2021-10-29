@@ -7,5 +7,6 @@ team: core
 services:
   - type: generic
     image: kw-tech-radar:${VERSION}
+    env_file: .env.test
     dns_name: task-amazon-b2b
     container_port: 8000
