@@ -19,12 +19,12 @@ function loadData() {
         grid: "#bbb",
         inactive: "#ddd"
       },
-      title: "KW-Commerce Tech Radar — 2021.10",
+      title: "KW-Commerce Tech Radar — " + data_json.last_update,
       quadrants: [
-        { name: "Architecture" },
-        { name: "Backend" },
-        { name: "Frontend" },
-        { name: "Data Storage" },
+        { name: "Languages" },
+        { name: "Infrastructure" },
+        { name: "Datastores" },
+        { name: "Data Management" },
       ],
       rings: [
         { name: "ADOPT", color: "#82b74b" },
@@ -35,7 +35,7 @@ function loadData() {
       print_layout: true,
       // zoomed_quadrant: 0,
       //ENTRIES
-      entries: entries
+      entries: data_json.entries
       //ENTRIES
     });
   });

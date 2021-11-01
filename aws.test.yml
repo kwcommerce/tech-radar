@@ -8,5 +8,5 @@ services:
   - type: generic
     image: kw-tech-radar:${VERSION}
     env_file: .env.test
-    dns_name: task-amazon-b2b
+    dns_name: techradar
     container_port: 8000

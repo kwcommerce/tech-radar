@@ -1,4 +1,7 @@
-[
+{
+  "last_update": "2021.11",
+  "entries":
+  [
     {
       "label": "Angular JS",
       "quadrant": 2,
@@ -15,3 +18,4 @@
       "ring": 0
     }
   ]
+}

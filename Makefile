@@ -9,17 +9,17 @@ deploy: 		api-deploy-to-swarm
 
 build:
 	@echo "Building Docker image"
-	docker build -t $(NAME)_nginx:$(VERSION) --build-arg registry=$(REGISTRY) .
+	docker build -t $(NAME):$(VERSION) --build-arg registry=$(REGISTRY) .
 
 jenkins-build:
 	@echo "Building Docker image"
-	docker build --no-cache -t $(NAME)_nginx:$(VERSION) --build-arg registry=$(REGISTRY) .
+	docker build --no-cache -t $(NAME):$(VERSION) --build-arg registry=$(REGISTRY) .
 
 push: ecr-create-repo
 push:
-	-aws ecr create-repository --repository-name $(NAME)_nginx --region $(AWS_REGION) 2> /dev/null
-	docker tag $(NAME)_nginx:$(VERSION) $(REGISTRY)/$(NAME)_nginx:$(VERSION)
-	docker push $(REGISTRY)/$(NAME)_nginx:$(VERSION)
+	-aws ecr create-repository --repository-name $(NAME) --region $(AWS_REGION) 2> /dev/null
+	docker tag $(NAME):$(VERSION) $(REGISTRY)/$(NAME):$(VERSION)
+	docker push $(REGISTRY)/$(NAME):$(VERSION)
 
 check-image-exists:
-	@aws ecr list-images --repository-name $(NAME)_nginx --query 'imageIds[?imageTag==`$(VERSION)`]' --region $(AWS_REGION) --output text | grep $(VERSION)
+	@aws ecr list-images --repository-name $(NAME) --query 'imageIds[?imageTag==`$(VERSION)`]' --region $(AWS_REGION) --output text | grep $(VERSION)
