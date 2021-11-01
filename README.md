@@ -50,8 +50,6 @@ this is an example of 'app/data.json'
     ]
 }
 ```
-
----
 #### rings keymap
 
 | rings | Id |
