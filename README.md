@@ -24,6 +24,7 @@ Check out our Engineering Blog for more information on how we approach Technolog
 
 ## how to maintain it?
 * Update the `app/data.json` file
+* create new git tag, to force AWS to use the latest image 
 * build the image `make build` 
 * push the image to our AWS repository `make basic-push`
 * deploy it to AWS `make test-deploy-to-ecs`
