@@ -19,10 +19,7 @@ The Tech Radar is maintained by our Principal Engineers — who faciliate and dr
 
 Check out our Engineering Blog for more information on how we approach Technology Selection and use the Tech Radar at KW. 
 
----
----
-
-## how to maintain it?
+### Steps to follow:
 * Update the `app/data.json` file
 * create new git tag, to force AWS to use the latest image 
 * build the image `make build` 
