@@ -21,7 +21,7 @@ function loadData() {
       },
       title: "KW-Commerce Tech Radar — " + data_json.last_update,
       quadrants: [
-        { name: "Languages" },
+        { name: "Languages and Frameworks" },
         { name: "Infrastructure" },
         { name: "Datastores" },
         { name: "Data Management" },

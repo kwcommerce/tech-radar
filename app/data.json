@@ -1,21 +1,131 @@
 {
-  "last_update": "2021.11",
+  "last_update": "2021.12",
   "entries":
   [
     {
       "label": "Angular JS",
-      "quadrant": 2,
+      "quadrant": 0,
       "ring": 0
     },
     {
-      "label": "PHP 7.2",
-      "quadrant": 2,
+      "label": "PHP 7+",
+      "quadrant": 0,
       "ring": 0
     },
     {
       "label": "PHP 8",
+      "quadrant": 0,
+      "ring": 0
+    },
+    {
+      "label": ".NET Framework 4.6.1",
+      "quadrant": 0,
+      "ring": 0
+    },
+    {
+      "label": ".NET Core 3.1",
+      "quadrant": 0,
+      "ring": 0
+    },
+    {
+      "label": "C# 7.3, 8.0",
+      "quadrant": 0,
+      "ring": 0
+    },
+    {
+      "label": "Symfony 4",
+      "quadrant": 0,
+      "ring": 0
+    },
+    {
+      "label": "Symfony 5",
+      "quadrant": 0,
+      "ring": 0
+    },
+    {
+      "label": "PhpUnit",
+      "quadrant": 0,
+      "ring": 0
+    },
+    {
+      "label": "AWS CDK",
+      "quadrant": 0,
+      "ring": 2
+    },
+    {
+      "label": "PHP 8.1",
+      "quadrant": 0,
+      "ring": 2
+    },
+    {
+      "label": "PHP 5",
+      "quadrant": 0,
+      "ring": 3
+    },
+    {
+      "label": "Symfony 3",
+      "quadrant": 0,
+      "ring": 3
+    },
+    {
+      "label": "AWS S3",
+      "quadrant": 1,
+      "ring": 0
+    },
+    {
+      "label": "AWS ECS",
+      "quadrant": 1,
+      "ring": 2
+    },
+    {
+      "label": "AWS Lambda",
+      "quadrant": 1,
+      "ring": 2
+    },
+    {
+      "label": "AWS ApiGateway",
+      "quadrant": 1,
+      "ring": 2
+    },
+    {
+      "label": "AWS Stepfunctions",
+      "quadrant": 1,
+      "ring": 2
+    },
+    {
+      "label": "MySQL",
       "quadrant": 2,
       "ring": 0
+    },
+    {
+      "label": "AWS DynamoDB",
+      "quadrant": 2,
+      "ring": 2
+    },
+    {
+      "label": "ElasticSearch for Data analytics (x-pack)",
+      "quadrant": 2,
+      "ring": 2
+    },
+    {
+      "label": "RabbitMQ",
+      "quadrant": 3,
+      "ring": 0
+    },
+    {
+      "label": "Prometheus",
+      "quadrant": 3,
+      "ring": 0
+    },
+    {
+      "label": "Kafka",
+      "quadrant": 3,
+      "ring": 0
+    },
+    {
+      "label": "Github action (CI pipeline)",
+      "quadrant": 3,
+      "ring": 1
     }
   ]
 }
