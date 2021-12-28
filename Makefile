@@ -4,7 +4,6 @@ export NAME 		= kw-tech-radar
 export ENVIRONMENT 	?= dev
 
 
-push: 			api-push
 deploy: 		api-deploy-to-swarm
 
 build:
